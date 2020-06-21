@@ -104,6 +104,7 @@ const createWebpackConfig = ({
       extensions: [".ts", ".js", ".json"],
     },
     output: {
+      ecmaVersion: latestBuild ? 2015 : 5,
       filename: ({ chunk }) => {
         if (!isProdBuild || dontHash.has(chunk.name)) {
           return `${chunk.name}.js`;
