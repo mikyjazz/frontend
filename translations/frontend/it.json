@@ -26,13 +26,14 @@
     "state_attributes": {
         "climate": {
             "fan_mode": {
-                "auto": "Auto",
+                "auto": "Automatico",
                 "off": "Spento",
                 "on": "Acceso"
             },
             "hvac_action": {
+                "auto": "Automatico",
                 "cooling": "Raffreddamento",
-                "drying": "Asciugatura",
+                "drying": "Deumidificazione",
                 "fan": "Ventilatore",
                 "heating": "Riscaldamento",
                 "idle": "Inattivo",
@@ -663,7 +664,7 @@
                     "min": "Valore minimo",
                     "mode": "Modalità di visualizzazione",
                     "slider": "Cursore",
-                    "step": "Dimensione del passo",
+                    "step": "Passo",
                     "unit_of_measurement": "Unità di misura"
                 },
                 "input_select": {
@@ -956,7 +957,7 @@
                                     "above": "Superiore",
                                     "below": "Inferiore",
                                     "label": "Valore numerico",
-                                    "value_template": "Valore modello (opzionale)"
+                                    "value_template": "Modello del valore (opzionale)"
                                 },
                                 "or": {
                                     "label": "Oppure"
@@ -1268,7 +1269,7 @@
                         "account_created": "Account creato! Controlla la tua email per istruzioni su come attivare il tuo account.",
                         "create_account": "Crea un account",
                         "email_address": "Indirizzo e-mail",
-                        "email_error_msg": "Email non valida",
+                        "email_error_msg": "E-mail non valida",
                         "feature_amazon_alexa": "Integrazione con Amazon Alexa",
                         "feature_google_home": "Integrazione con Google Assistant",
                         "feature_remote_control": "Controllo di Home Assistant lontano da casa",
@@ -1899,7 +1900,7 @@
                             "group": "Ricarica i Gruppi",
                             "heading": "Ricarica Configurazione YAML",
                             "input_boolean": "Ricarica input booleani",
-                            "input_datetime": "Ricarica input data e/o tempo",
+                            "input_datetime": "Ricarica input data e/o ora",
                             "input_number": "Ricarica input numerici",
                             "input_select": "Ricarica input a discesa",
                             "input_text": "Ricarica input testuali",
@@ -1944,7 +1945,7 @@
                         "name": "Nome",
                         "new_tag": "Nuova Etichetta",
                         "tag_id": "Id Etichetta",
-                        "tag_id_placeholder": "Autogenerato quando lasciato vuoto",
+                        "tag_id_placeholder": "Autogenerato se lasciato vuoto",
                         "update": "Aggiorna"
                     },
                     "edit": "Modifica",
@@ -2898,7 +2899,7 @@
                     "title_success": "Completata con Successo"
                 },
                 "mfa": {
-                    "confirm_disable": "Sei sicuro di voler disabilitare {name} ?",
+                    "confirm_disable": "Sei sicuro di voler disattivare {name} ?",
                     "disable": "Disattivare",
                     "enable": "Abilita",
                     "header": "Codice di autenticazione a più fattori"
