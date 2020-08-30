@@ -26,15 +26,19 @@
     "state_attributes": {
         "climate": {
             "fan_mode": {
-                "auto": "Auto",
+                "auto": "Automatico",
                 "off": "Spento",
                 "on": "Acceso"
             },
             "hvac_action": {
+                "auto": "Automatico",
                 "cooling": "Raffreddamento",
-                "drying": "Asciugatura",
+                "cool": "Freddo",
+                "drying": "Deumidificazione",
+                "dry": "Deumidifica",
                 "fan": "Ventilatore",
                 "heating": "Riscaldamento",
+                "heat": "Caldo",
                 "idle": "Inattivo",
                 "off": "Spento"
             },
@@ -200,8 +204,9 @@
             "streaming": "Streaming"
         },
         "climate": {
+            "auto": "Automatico",
             "cool": "Freddo",
-            "dry": "Secco",
+            "dry": "Deumidifica",
             "fan_only": "Solo ventilatore",
             "heat": "Caldo",
             "heat_cool": "Caldo/Freddo",
@@ -323,7 +328,7 @@
             "pouring": "Piogge intense",
             "rainy": "Piovoso",
             "snowy": "Nevoso",
-            "snowy-rainy": "Nevoso, piovoso",
+            "snowy-rainy": "Nevischio",
             "sunny": "Soleggiato",
             "windy": "Ventoso",
             "windy-variant": "Ventoso"
@@ -2749,7 +2754,7 @@
                 },
                 "mfa": {
                     "confirm_disable": "Sei sicuro di voler disabilitare {name} ?",
-                    "disable": "Disattivare",
+                    "disable": "Disabilitare",
                     "enable": "Abilita",
                     "header": "Codice di autenticazione a più fattori"
                 },
